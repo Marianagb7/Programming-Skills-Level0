@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style_page.css">
+    <link rel="stylesheet" href="style_load.css">
+</head>
+<body>
+    <div class="load_init">
+        <div class="spinner"></div>
+        <div class="txt_inf">Procesando<br  />Espera...</div>
+    </div>
+    <div class="container">
+        <h2> Inicio de sesión</h2>
+        <form id="loginForm">
+            <label for="username">Usuario</label>
+            <br>
+            <div>
+                <input type="text" id="username" required placeholder="Ingresa usuario">
+                <br>
+                <img src="./icon/user.ico" alt="">
+            </div>
+            <br>
+            <label for="password">Clave</label>
+            <br>
+            <div>
+                <input type="password" id="password" required placeholder="Ingresa tu clave">
+                <br>
+                <img src="./icon/password.ico" alt="">
+            </div>
+            <br>
+            <button type="submit">Acceder</button>
+        </form>
+        <p id="message"></p>
+    </div>
+    <script src="load.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

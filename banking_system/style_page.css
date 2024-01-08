@@ -1,0 +1,58 @@
+body,
+input{
+    font-family: "Poppins", sans-serif;
+    background-image: radial-gradient(circle at 47.89% 46.99%,
+    #fdfbff 0, #e6e4fa 25%, #cdcdf2 50%, #b1b7ea 75%,
+    #94a3e2 100%);
+}
+
+.container{
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #111110;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgba(117, 116, 190, 0.973);
+    align-items: center;
+
+}
+h2{
+    margin-top: 0;
+}
+
+input{
+    background-color: rgb(226, 220, 228);
+    margin: 10px 0px;
+    height: 35px;
+    border-radius: 15px;
+
+}
+
+button{
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+form>div{
+    position: relative;
+    width: 300px;
+    margin-top: auto;
+}
+form>div>input{
+    margin-top: auto;
+    box-sizing: border-box;
+    padding: 30px 10px 10px;
+    width: 100%;
+    border: 1px rgb(4, 4, 55);
+    box-shadow: 0 1px 1px #000 inset;
+    color: #cc4edd;
+    transition: 0.5s;
+    font-size: 1.2rem;
+}
+form>div>img{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    height: 30px;
+    width: 30px;
+}

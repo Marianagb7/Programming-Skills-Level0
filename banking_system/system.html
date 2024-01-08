@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Bancario</title>
+    <link rel="stylesheet" href="system.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+</head>
+<body>
+    <div class="container">
+        <div class="screens">
+            <div class="screen_balance">
+                <p>Saldo</p>
+                <i class="material-symbols-outlined">attach_money</i>
+                <span id="valueBalance">2000</span>
+            </div>
+            <div class="screen_deposit">
+                <p>Deposito</p>
+                <i class="material-symbols-outlined">file_download</i>
+                <span id="valueDeposit">0</span>
+            </div>
+            <div  class="screen_transfer">
+                <p>Transferencia</p>
+                <i class="material-symbols-outlined">move_item</i>
+                <span id="valueTransfer">0</span>
+            </div>            
+            <div class="screen_withdraw">
+                <p>Retiro</p>
+                <i class="material-symbols-outlined">file_download</i>
+                <span id="valueWithdrew">0</span>
+            </div>
+        </div>
+        <div class="operations">
+            <div class="deposit">
+                <input type="text" placeholder="Valor a depositar" id="inputDepositar">
+                <input type="button" value="depositar" id="buttonDepositar">
+            </div>
+            <div class="transfer">
+                <input type="text" placeholder="Valor transferencia" id="inputTransferir">
+                <input type="text" placeholder="Cuenta transferencia">
+                <input type="button" value="transferir" id="buttonTransferir">
+            </div>
+            <div class="withdraw">
+                <input type="text" placeholder="valor retiro" id="inputRetirar">
+                <input type="button" value="retirar" id="buttonRetirar">
+            </div>
+        </div>
+        <div class="boxMsg">
+            <p id="msg">Saldo insuficiente</p>
+        </div>
+    </div>    
+  <script src="system.js"></script>  
+</body>
+</html>
